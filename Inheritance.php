@@ -4,7 +4,7 @@
 class Produk
 {
     //property
-    protected $judul,
+    public $judul,
         $penulis,
         $penerbit,
         $harga,
