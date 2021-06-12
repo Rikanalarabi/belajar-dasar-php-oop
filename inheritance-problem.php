@@ -33,7 +33,7 @@ class Produk
     public function getInfoLengkap()
     {
         $str = "{$this->tipe} : {$this->judul} | {$this->getLebel()}, (Rp. {$this->harga})";
-        //if tidak ke deklarasi
+
         if ($this->tipe == "Anime") {
             $str .= "{$this->tipe} - {$this->jmlepisode} Episode.";
         } else if ($this->tipe == "Game") {
